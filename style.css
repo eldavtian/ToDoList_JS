@@ -1,0 +1,100 @@
+html{
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    border:2px solid rgb(5, 46, 84);
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.box{
+    width: 50%;
+   min-height: 500px;
+    border:4px solid rgb(5, 46, 84);
+    border-radius: 10px;
+
+}
+button{
+    width: 15%;
+    border:2px solid rgb(5, 46, 84);
+    border-radius: 10px;
+    background-color: pink;
+    font-size: 20px;
+    
+
+}
+.task{
+    width: calc(100% - 20px);
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c967bf63;
+    border-radius: 5px;
+}
+.task p{
+    width: 60%;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+
+}
+.task button{
+padding: 10px;
+background-color: rgb(130, 163, 235);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+border-color: rgb(4, 45, 96);
+width: 20%;
+cursor: pointer;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0d69e9;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: "\2713";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 0px;
+    color: #f6099f;
+  }
+  .done p{
+    text-decoration: line-through;
+  }
+  
